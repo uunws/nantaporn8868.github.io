@@ -90,7 +90,6 @@ body {
   text-decoration: underline;
 }
 
-/* Page Content */
 main {
   position: relative;
   z-index: 10;
@@ -148,33 +147,7 @@ a {
   transform: translateY(-2px);
   box-shadow: 0 6px 25px rgba(255, 58, 130, 0.4);
 }
-/* .btn {
-    padding: 1em 2em;
-    background-color: #161a20;
-    border: none;
-    color: #f0f0f0;
-    border-radius: 1000px;
-    position: relative;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-button::after {
-    content: '';
-    position: absolute;
-    height : 107%;
-    width: 102%;
-    border-radius: 1000px;
-    background-image: linear-gradient(to bottom right, blue, purple);
-    z-index: -1;
-}
-
-button:hover {
-    z-index: 0;
-    box-shadow: 40px 0 100px blue,-40px 0 100px purple;
-} */
 
 /* Background Effects */
 .gradient-background {
@@ -233,7 +206,6 @@ button:hover {
   100% { transform: translate(-5%, 10%) scale(1.05); opacity: 0.6; }
 }
 
-/* Overlay styles */
 .grid-overlay {
   position: absolute;
   top: 0;
@@ -311,30 +283,6 @@ button:hover {
   border-top: 2px solid white; 
   opacity: 0.5;
 }
-
-/* .about-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 2rem;
-}
-
-.about-title {
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 1.75rem;
-  text-align: center;
-  margin-bottom: 0.5rem;
-}
-
-.about-divider {
-  width: 200px; /* Make it as long as you want */
-  /* border: none;
-  border-top: 2px solid white;
-  opacity: 0.5;
-  margin: 0 auto;
-} */ 
 
 .about-title,
 .objectives-title,
